@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Store PS</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="model" id="model">  
+            <form class="login" dir="ltr">
+                <a href="#" class="close">&times;</a>
+                <h2>تسجيل الدخول</h2>
+                <label>كلمة المرور</label>   
+                <input type="password" id="password">
+                <label>اسم المستخدم</label>   
+                <input type="text" id="username">
+                <button>دخول</button>
+            </form>
+        </div>
+
+        <div class="model" id="log">  
+            <form class="login" dir="ltr">
+                <a href="#" class="close">&times;</a>
+                <h2>انشاء حساب</h2>
+                <label>الاسم الكامل</label>   
+                <input type="text" required>
+                <label>اسم المستخدم</label>   
+                <input type="text" required>
+                <label>البريد الالكتروني</label>   
+                <input type="email" required>
+                <label>كلمة المرور</label>   
+                <input type="password" required>
+                <label>تأكيد كلمة المرور</label>   
+                <input type="password" required>
+                <label>رقم الهاتف</label>   
+                <input type="tel">
+                <button>إنشاء حساب</button>
+            </form>
+        </div>
+        <!------------main menu---------->
+        <div class="menu_back" id="menu_back">  
+            <div class="logo">
+                <img src="images/logo.png" alt="PlayStation Store">
+                <div class="auth-icons">
+                    <a href="#model">
+                        <i class="fas fa-user"></i>
+                        <span>تسجيل الدخول</span>
+                    </a>
+                    <a href="#log">
+                        <i class="fas fa-user-plus"></i>
+                        <span>إنشاء حساب</span>
+                    </a>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="#menu_back">الرئيسية</a>
+                <a href="المنتجات.html">منتجاتنا</a>
+                <a href="الالعاب.html">الألعاب</a>
+                <a href="تواصل معنا.html">تواصل معنا</a>
+                <a href="about.html">عنا</a>
+                <div class="search-container">
+                    <input type="search" placeholder="ابحث عن المنتجات...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="name_store">
+                <h1>ألعاب PS5</h1>
+                <p>اكتشف جميع الإصدارات من أجهزة التحكم وألعاب البلايستيشن</p>
+            </div>
+        </div>
+        <div class="text_1">
+            <h4>بوابتك إلى عالم الألعاب</h4>
+            <p>استمتع بتجربة ألعاب استثنائية مع أحدث إصدارات البلايستيشن 5. نحن نقدم لك أفضل الألعاب والإكسسوارات بأسعار تنافسية وضمان على جميع المنتجات. انطلق في مغامرات لا تُنسى مع جرافيكس مذهلة وأداء قوي.</p>
+        </div>
+        
+        <div class="img_back">
+            <div class="slide-content">
+                <h3>أقوى أجهزة الألعاب</h3>
+                <p>استمتع بأداء استثنائي مع البلايستيشن 5</p>
+            </div>
+            <div class="slide-content">
+                <h3>تجربة لعب غامرة</h3>
+                <p>اكتشف ألعابًا ستبهرك بتفاصيلها الواقعية</p>
+            </div>
+            <div class="slide-content">
+                <h3>ترفيه لا ينتهي</h3>
+                <p>آلاف الألعاب تنتظرك في متجرنا الإلكتروني</p>
+            </div>
+        </div>
+        <h2 class="games_address">الألعاب</h2>
+        <div>
+            <div class="form_2" id="games">
+                <p class="p_1">اشترك الآن<br>واكتشف عروضنا الحصرية في الأكشن والمغامرة والرياضة وحتى الألعاب الجماعية</p>
+            </div>
+        </div>
+        <!----------games ----------->
+        <div class="images_games">
+            <section class="images" id="our_new">
+                <h3 class="images_address">ألعاب مشهورة</h3>
+                <div class="images_new">
+                    <img src="Games/Spider Man.jpeg" alt="Spider Man 2">
+                    <p>Spider-Man 2</p>
+                </div>
+                <div class="images_new">
+                    <img src="Games/FIFA.jpeg" alt="EA Sports FC 24">
+                    <p>FIFA/ EA Sports FC 24</p>
+                </div>
+            </section>
+            <a class="more" href="games.html">المزيد</a>
+        </div>
+        <!----------------products----------------->
+
+        <div class="products-header">
+            <h2>منتجاتنا</h2>
+        </div>
+        <section class="products-container">
+            <!-- 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/Playstion.jpeg" alt="بلايستيشن 5">
+                </div>
+                <div class="product-info">
+                    <span class="product-category">جهاز أساسي</span>
+                    <h3>بلايستيشن 5</h3>
+                    <p>جهاز الألعاب الأقوى من سوني مع معالج سريع وأداء مذهل بدقة 4K، مزود بمشغل أقراص Ultra HD Blu-ray.</p>
+                    <div class="product-price">530$</div>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+            </div>
+
+            <!--  2 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="images/Dual.jpeg" alt="يد تحكم">
+                </div>
+                <div class="product-info">
+                    <span class="product-category">إكسسوارات</span>
+                    <h3>يد تحكم DualSense</h3>
+                    <p>يحاكي اللمس في العالم الحقيقي من خلال الاهتزاز التكاملي ومقاومة الزناد الديناميكية ومكبرات الصوت المدمجة.</p>
+                    <div class="product-price">78$</div>
+                    <button class="add-to-cart">أضف إلى السلة</button>
+                </div>
+            </div>
+        </section>
+        <a class="more" href="المنتجات.html" target="_self" style="background-color: rgb(45, 126, 231); margin: 20px auto; display: block; width: 150px;">المزيد من المنتجات</a>
+
+        <div class="copy">
+            <div class="about">
+                <p class="p">متجر بلايستيشن - وجهتك الأولى لكل ما يخص عالم الألعاب<br>نقدم لكم أحدث أجهزة البلايستيشن 5 وألعابها بإمكانيات خيالية وجودة لا مثيل لها</p>
+                <span>www.playstation.ye.com</span>
+            </div>
+
+            <p class="head">زورونا على مواقعنا</p>
+            <div class="media">
+                <div class="container">
+                    <div class="icon facebook">
+                        <div class="tooltip">Facebook</div>
+                        <a href="https://www.facebook.com/profile.php?id=61560338589591"><span><i class="fab fa-facebook-f"></i></span></a>
+                    </div>
+
+                    <div class="icon youtube">
+                        <div class="tooltip">Youtube</div>
+                        <a href="https://youtube.com/@fursanareqe?si=CcQ4kxYO0_nYZxgn"><span><i class="fab fa-youtube"></i></span></a>
+                    </div>
+
+                    <div class="icon instagram">
+                        <div class="tooltip">instagram</div>
+                        <a href="https://www.instagram.com/4__san?igsh=cWcxY3VwNHY3ZnZu"><span><i class="fab fa-instagram"></i></span></a>
+                    </div>
+
+                    <div class="icon tiktok">
+                        <div class="tooltip">Tiktok</div>
+                        <a href="#"><span><i class="fab fa-tiktok"></i></span></a>
+                    </div>
+
+                    <div class="icon whatsapp">
+                        <div class="tooltip">Whatsapp</div>
+                        <a href="https://wa.me/967778031393?text=مرحبا فرسان العريقي لقد رأيت موقع الويب التجريبي الذي صممته لمتجر البلاستيشن ونريد التواصل معك لعمل موقع ويب؟"><span><i class="fab fa-whatsapp"></i></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                &copy; جميع الحقوق محفوظة لمتجر بلايستيشن 2025
+                <p>Developed by Fursan Ameen <br><small> <a href="mailto:fursanareqe@gmail.com">fursanareqe@gmail.com</a></small></p>
+            </footer>
+        </div>
+    </body>
+</html>
